@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+    /*
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    */
+
+/* nav sectioin css start*/
+
+.navbar-text span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #42200B;
+}
+.nav-font a{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin-left: 35px;
+    letter-spacing: 2px;
+    color: #42200B !important;
+}
+/* nav sectioin css end*/
+
+/* banner sectioin css start*/
+.banner-section{
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 95vh;
+    
+}
+.banner-content{
+
+}
+.banner-h3{
+    border: 2px dashed #42200B;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.banner-h3, h3 {
+    color: #42200B;
+    font-size: 25px;
+    font-family: 'Bebas Neue' cursive;
+    font-weight: 400;
+
+    
+    
+}
+.banner-content h1{
+    color: #42200B;
+    font-size: 115px;
+    text-shadow: 5px 5px #fff;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+}
+.banner-content h2{
+    color: #42200B;
+    font-size: 60px;
+    text-shadow: 3px 3px #fff;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+}
+.banner-content img{
+
+}
+/* banner sectioin css end*/
+
+
+/*Try it today section css start*/
+
+.left-img{
+    position: relative;
+    
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.left-img .top-left h5, h1{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.right-top-img{
+    position: relative;
+}
+.right-top-img-text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.right-top-img-text h5, h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.right-bottom-img img{
+    margin-top: 9px;
+}
+.right-bottom-img{
+    position: relative;
+}
+.right-bottom-img-text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.right-bottom-img-text h5, h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*Try it today section css end*/
+
+/* choose & enjoy section start*/
+.choose-and-enjoy{
+
+}
+.choose-and-enjoy h5{
+    background-color: #FFC135;
+    color: #42200B;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 10px;
+}
+.choose-and-enjoy h1{
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+}
+.choose-and-enjoy p{
+    padding: 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.order{
+
+}
+
+.order h4{
+    color: #42200B;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.order p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.order .btn-order {
+    background-color: #DF1C1C;
+    border-radius: 0;
+    width: 180px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+}
+/* choose & enjoy section end*/
+
+/* upcoming section start*/
+.shadow{
+    box-shadow: 5px 10px 8px #888888;
+}
+.up-coming{
+
+}
+.up-coming h4{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #3B3B3B;
+    text-transform: uppercase;
+}
+.up-coming h3{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    color: #42200B;
+    text-transform: uppercase;
+}
+.up-coming p {
+    color: #3B3B3B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* upcoming section end*/
+
+/* booking section start*/
+.booking-header h5{
+   color: #42200B;
+   font-family: 'Bebas Neue', cursive;
+   font-weight: bold;
+   letter-spacing: 1px;
+   font-size: 27px;
+}
+.booking-header h3 {
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.booking-right-img-parent {
+    position: relative;
+}
+.booking-right-img-parent img{
+    position: absolute;
+    bottom: 0;
+    top: 130px;
+    
+}
+.submit-btn{
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    background-color: #DF1C1C;
+    color: #fff;
+    width: 100%;
+}
+/* booking section end*/
+
+
+/* footer section end*/
+.footer{
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.footer img {
+    padding: 30px;
+}
+.address-parent{
+    position: relative;
+}
+.address {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.address h5 {
+    font-size: 17px;
+}
+
+
+.footer p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 0 0 30px;
+}
+.copyright h5{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 17px;
+}
+.copyright ul li i{
+    background-color: #fff;
+}
+.icons li i{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0 7px;
+}
+/* footer section end*/
+
+
+/*owl-carousel*/
